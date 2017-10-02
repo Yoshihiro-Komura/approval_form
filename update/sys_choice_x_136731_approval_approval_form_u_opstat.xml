@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_opstat" table="x_136731_approval_approval_form" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>作成中</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f3abba0f010300fd4e758ce1050e79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>転送済み</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04f3abba0f010300fd4e758ce1050e7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>差戻し</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccf3abba0f010300fd4e758ce1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮差戻し</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88f3abba0f010300fd4e758ce1050e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>新規作成エラー</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f3abba0f010300fd4e758ce1050e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>差戻しエラー</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00f3abba0f010300fd4e758ce1050e82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮差戻しエラー</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8f3abba0f010300fd4e758ce1050e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮申請中</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84f3abba0f010300fd4e758ce1050e85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>申請保留</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40f3abba0f010300fd4e758ce1050e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮申請中エラー</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cf3abba0f010300fd4e758ce1050e88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮承認中</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4f3abba0f010300fd4e758ce1050e8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮承認中エラー</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80f3abba0f010300fd4e758ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>35</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>承認中</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cf3abba0f010300fd4e758ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>申請保留</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08f3abba0f010300fd4e758ce1050e8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>42</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>合議・決裁中</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0f3abba0f010300fd4e758ce1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>44</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>承認済み</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cf3abba0f010300fd4e758ce1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮否認</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48f3abba0f010300fd4e758ce1050e94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>60</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仮否認エラー</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04f3abba0f010300fd4e758ce1050e96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>65</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>否認</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccf3abba0f010300fd4e758ce1050e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>70</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_opstat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>終了</label>
+            <language>en</language>
+            <name>x_136731_approval_approval_form</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88f3abba0f010300fd4e758ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+            <value>90</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_opstat</element>
+            <name>x_136731_approval_approval_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 00:55:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ccf3abba0f010300fd4e758ce1050e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_opstat</sys_name>
+            <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+            <sys_update_name>sys_choice_x_136731_approval_approval_form_u_opstat</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 00:55:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

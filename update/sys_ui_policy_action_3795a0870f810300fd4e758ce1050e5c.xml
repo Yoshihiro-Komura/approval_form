@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_reason_not_entering_date</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-11 05:43:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3795a0870f810300fd4e758ce1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reason_not_entering_date</sys_name>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3795a0870f810300fd4e758ce1050e5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-11 05:43:03</sys_updated_on>
+        <table>x_136731_approval_approval_form</table>
+        <ui_policy display_value="Approval Form for PPI End Date">0c35ec470f810300fd4e758ce1050e50</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

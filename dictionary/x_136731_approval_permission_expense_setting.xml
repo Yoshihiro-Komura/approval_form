@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="権限・経費科目設定" max_length="40" name="x_136731_approval_permission_expense_setting" type="collection">
+        <element label="Boolean" max_length="40" name="u_boolean" type="boolean"/>
+        <element label="作成日" max_length="40" name="u_create_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="作成者" max_length="40" name="u_create_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="第一選択肢" mandatory="true" max_length="100" name="u_expense_ic1" type="string">
+            <choice/>
+        </element>
+        <element choice="3" default="0" label="Expense IC1 w/wo" max_length="40" name="u_expense_ic1_wwo" type="integer">
+            <choice>
+                <element label="チェックする" sequence="0" value="1"/>
+                <element label="チェックしない" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="第二選択肢" max_length="100" name="u_expense_ic2" type="string">
+            <choice/>
+        </element>
+        <element choice="3" default="0" label="Expense IC2 T/F" max_length="40" name="u_expense_ic2_boolean" type="integer">
+            <choice>
+                <element label="選択肢あり" sequence="0" value="1"/>
+                <element label="選択肢なし" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element choice="3" default="0" label="起案Formのチェック" max_length="40" name="u_form_check" type="integer">
+            <choice>
+                <element label="チェックする" sequence="0" value="1"/>
+                <element label="チェックしない" sequence="1" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="稟議書" max_length="40" name="u_limit_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="稟議書(総合支社/営業部)" max_length="40" name="u_limit_approval_sougou" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁書(推進部長決裁)" max_length="40" name="u_limit_decisin_suishin" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁書(部長決裁)" max_length="40" name="u_limit_decision_butyo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁書(課長決裁)" max_length="40" name="u_limit_decision_katyo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁書(総/営役員決裁)" max_length="40" name="u_limit_decision_souei" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁書(役員決裁･当局届出関係)" max_length="40" name="u_limit_decision_toukyoku" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁書(役員決裁)" max_length="40" name="u_limit_decision_yakuin" type="string"/>
+        <element label="Record Count" max_length="40" name="u_record_count" read_only="true" type="integer"/>
+        <element label="Record Count 1" max_length="40" name="u_record_count_1" read_only="true" type="integer"/>
+        <element label="Res Date" max_length="40" name="u_res_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Res Name" max_length="40" name="u_res_name" read_only="true" type="string"/>
+        <element label="更新日" max_length="40" name="u_update_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="更新者" max_length="40" name="u_update_name" read_only="true" type="string"/>
+    </element>
+</database>

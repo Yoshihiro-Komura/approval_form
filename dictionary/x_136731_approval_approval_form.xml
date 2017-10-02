@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Approval Form" max_length="40" name="x_136731_approval_approval_form" type="collection">
+        <element choice="3" default="0" label="稟議書タイプ" max_length="40" name="u_amendment_approval" type="integer">
+            <choice>
+                <element label="通常稟議" sequence="0" value="0"/>
+                <element label="修正稟議" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="申請者 所属" max_length="40" name="u_applicant_department" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="所属コード" max_length="40" name="u_applicant_department_code" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="社員番号" max_length="40" name="u_applicant_emp_no" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="申請者ID" max_length="40" name="u_applicant_id" read_only="true" type="string"/>
+        <element label="申請者氏名" max_length="32" name="u_applicant_name" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="申請者 役職" max_length="40" name="u_applicant_position" read_only="true" type="string"/>
+        <element label="申請日" max_length="40" name="u_appliction_date" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="稟議書" label="稟議書タイトル" max_length="40" name="u_apprlication_title" read_only="true" type="string"/>
+        <element label="決裁日" max_length="40" name="u_date_approval" type="glide_date"/>
+        <element label="修正稟議を要する事象の発生日" max_length="40" name="u_date_occurrence_event" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁番号" max_length="40" name="u_decision_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="1" label="実施確認フラグ" max_length="40" name="u_execution_confirmation" read_only="true" type="string"/>
+        <element label="起案部に保管" max_length="40" name="u_keep_drafting_flg" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="(資料名)" max_length="40" name="u_keep_drafting_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ステータス" max_length="40" name="u_opcurstat3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁者所属" max_length="40" name="u_opkgdeptforview" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="決裁者役職" max_length="40" name="u_opkgjobforview" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Opmemo" label="ステータス１memo" max_length="40" name="u_opmemo" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Opmemo" label="ステータス２memo" max_length="40" name="u_opmemo2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Opmemo" label="ステータスmemo" max_length="40" name="u_opmemo3" read_only="true" type="string"/>
+        <element choice="3" default="10" label="ステータス１" max_length="40" name="u_opstat" read_only="true" type="integer">
+            <choice>
+                <element label="作成中" sequence="0" value="10"/>
+                <element label="転送済み" sequence="1" value="100"/>
+                <element label="差戻し" sequence="2" value="12"/>
+                <element label="仮差戻し" sequence="3" value="13"/>
+                <element label="新規作成エラー" sequence="4" value="15"/>
+                <element label="差戻しエラー" sequence="5" value="17"/>
+                <element label="仮差戻しエラー" sequence="6" value="18"/>
+                <element label="仮申請中" sequence="7" value="20"/>
+                <element label="申請保留" sequence="8" value="22"/>
+                <element label="仮申請中エラー" sequence="9" value="25"/>
+                <element label="仮承認中" sequence="10" value="30"/>
+                <element label="仮承認中エラー" sequence="11" value="35"/>
+                <element label="承認中" sequence="12" value="40"/>
+                <element label="申請保留" sequence="13" value="42"/>
+                <element label="合議・決裁中" sequence="14" value="44"/>
+                <element label="承認済み" sequence="15" value="50"/>
+                <element label="仮否認" sequence="16" value="60"/>
+                <element label="仮否認エラー" sequence="17" value="65"/>
+                <element label="否認" sequence="18" value="70"/>
+                <element label="終了" sequence="19" value="90"/>
+            </choice>
+        </element>
+        <element choice="1" label="ステータス２" max_length="40" name="u_opstat2" read_only="true" type="integer">
+            <choice>
+                <element label="決裁番号発番済み" sequence="0" value="0"/>
+                <element label="実施確認待ち" sequence="1" value="1"/>
+                <element label="実施確認中" sequence="2" value="2"/>
+                <element label="決裁完了" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="終了日" max_length="40" name="u_ppi_end_date" type="glide_date"/>
+        <element label="開始日" mandatory="true" max_length="40" name="u_ppi_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="内容" max_length="400" name="u_pp_contents" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="デメリット" max_length="200" name="u_pp_demerit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="メリット" max_length="200" name="u_pp_merit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="実施内容" mandatory="true" max_length="400" name="u_purported_purpose_implementation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="件名" mandatory="true" max_length="100" name="u_purported_purpose_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="起案に時間を要した理由" max_length="400" name="u_reason_delayed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="終了日未記入理由" max_length="400" name="u_reason_not_entering_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="事後申請の理由" max_length="400" name="u_reason_rest" type="string"/>
+        <element label="紙資料別途送付" max_length="40" name="u_separate_paper_flg" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="(資料名)" max_length="40" name="u_separate_paper_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="至急フラグ" max_length="40" name="u_urgent_flag" read_only="true" type="string"/>
+    </element>
+</database>

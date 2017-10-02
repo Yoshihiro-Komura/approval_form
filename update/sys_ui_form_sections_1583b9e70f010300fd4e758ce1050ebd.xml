@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="1583b9e70f010300fd4e758ce1050ebd" sys_domain="global" table="x_136731_approval_permission_expense_setting" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-13 00:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9983b9e70f010300fd4e758ce1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_136731_approval_permission_expense_setting" name="x_136731_approval_permission_expense_setting" sys_domain="global" view="Default view">1583b9e70f010300fd4e758ce1050ebd</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_136731_approval_permission_expense_setting" sys_domain="global" view="Default view">1d4ca5270f010300fd4e758ce1050e2b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-13 00:40:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-13 00:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9583b9e70f010300fd4e758ce1050ec0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_136731_approval_permission_expense_setting" name="x_136731_approval_permission_expense_setting" sys_domain="global" view="Default view">1583b9e70f010300fd4e758ce1050ebd</sys_ui_form>
+            <sys_ui_section caption="更新履歴" display_value="更新履歴" name="x_136731_approval_permission_expense_setting" sys_domain="global" view="Default view">d583b9e70f010300fd4e758ce1050ebc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-13 00:40:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_136731_approval_permission_expense_setting</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-13 00:40:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1583b9e70f010300fd4e758ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_136731_approval_permission_expense_setting</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1583b9e70f010300fd4e758ce1050ebd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-13 00:40:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

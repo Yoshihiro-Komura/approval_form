@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>homepages</category>
+        <client_script/>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_136731_approval_test.do</endpoint>
+        <html><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<head>
+		<!-- g:evaluateタグは、サーバーサイドScriptとして評価 -->
+		<g:evaluate object="true">
+			var info ="お知らせが設定されていません";
+			var gr = new GlideRecord('x_136731_approval_infomation');
+			gr.query();
+			while(gr.next()) {
+				info = gr.getValue('u_infomation');
+			}
+		</g:evaluate>
+		<!-- scriptタグは、g:やj:とは変数を共有しない -->
+		<script>
+			<!--
+var msg = "お知らせ";
+
+//ウィンドウサイズを取得する
+var sW,sH,s;
+sW = window.innerWidth;
+sH = window.innerHeight;
+
+s = sH > 400 ? sH - 160: 300;
+
+document.writeln("<style>");
+document.writeln(".outbox1 {");
+document.writeln("	width: 35%;");
+document.writeln("	height: " + s + "px;");
+document.writeln("	float: right;");
+document.writeln("}");
+document.writeln(".outbox2 {");
+document.writeln("	width: 65%;");
+document.writeln("	height: " + s + "px;");
+document.writeln("	float: left;");
+document.writeln("}");
+document.writeln(".inbox1 {");
+document.writeln("	height: " + (s - 20) + "px;");
+document.writeln("	padding: 5px;");
+document.writeln("	margin: 5px;");
+document.writeln("	border: 2px inset;");
+document.writeln("	background-color: #52BE93;");
+document.writeln("}");
+document.writeln(".inbox2 {");
+document.writeln("	height: " + (s - 20) + "px;");
+document.writeln("	padding: 5px;");
+document.writeln("	margin: 5px;");
+document.writeln("	border: 2px inset;");
+document.writeln("	background-color: #68C24D;");
+document.writeln("}");
+document.writeln(".inbox3 {");
+document.writeln("	padding: 5px;");
+document.writeln("	margin: 5px;");
+document.writeln("	border: 2px inset;");
+document.writeln("	background-color: #C6BF49;");
+document.writeln("	text-align: center;");
+document.writeln("}");
+document.writeln(".messeg {");
+document.writeln("	height: " + (s - 200) + "px;");
+document.writeln("	padding: 10px;");
+document.writeln("	margin: 10px;");
+document.writeln("	border: 2px inset;");
+document.writeln("	background-color: #ffffff;");
+document.writeln("}");
+document.writeln("</style>");
+			-->
+		</script>
+		<style>
+			ul {
+				padding-left: 20px;
+				padding-right: 30px;
+			}
+			.desc {
+				font-size: 80%;
+				padding-left: 10px;
+				padding-right: 15px;
+				padding-top: 5px;
+				padding-bottom: 20px;
+			}
+			a {
+				text-decoration: none;
+				display: block;
+				font-size: 110%;
+				padding: 2px;
+				border: 2px inset #dddddd;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div style="width:100%;">
+
+		<h1>表示のテスト</h1>
+		<div class="outbox1">
+		<div class="inbox1">
+			<script type="text/javascript">
+				<!--
+					document.write("<p>" + msg + "</p>");
+				-->
+			</script>
+				<!-- g:no_escapeはエスケープ処理をしない(セキュリティ的に弱いので、使い方注意) -->
+			<div class="messeg"><g:no_escape>
+				${info}
+			</g:no_escape></div>
+		</div>
+		</div>
+		<div class="outbox2">
+		<div class="inbox2">
+			<h2>リストを表示する</h2>
+				<ul type="none">
+					<li><a href="x_136731_approval_approval_choise_data_list.do">申請書名設定</a></li>
+					<li class="desc">説明</li>
+					<li><a href="x_136731_approval_expense_choise_1_list.do">第一選択肢</a></li>
+					<li class="desc">説明</li>
+					<li><a href="x_136731_approval_expense_choise_2_list.do">第二選択肢</a></li>
+					<li class="desc">説明</li>
+					<li><a href="x_136731_approval_approval_form_list.do">フォーム</a></li>
+					<li class="desc">説明</li>
+				</ul>
+		</div>
+		</div>
+		<div style="clear: both;"></div>
+		<div class="inbox3">
+			<p>フッター部分</p>
+		</div>
+	</div>
+	</body>
+</j:jelly>
+]]></html>
+        <name>test</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-19 04:17:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dc6a8d610f510300fd4e758ce1050eb1</sys_id>
+        <sys_mod_count>180</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_ui_page_dc6a8d610f510300fd4e758ce1050eb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-02 00:35:48</sys_updated_on>
+    </sys_ui_page>
+</record_update>

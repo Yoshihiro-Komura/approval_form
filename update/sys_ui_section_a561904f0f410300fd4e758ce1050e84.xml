@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="非表示" section_id="a561904f0f410300fd4e758ce1050e84" sys_domain="global" table="x_136731_approval_approval_form" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opstat</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>f161d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opstat2</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>7561d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_execution_confirmation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>f561d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>7961d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opmemo</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>f961d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opmemo2</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>7d61d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opkgdeptforview</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>fd61d04f0f410300fd4e758ce1050e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opkgjobforview</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:27</sys_created_on>
+            <sys_id>7161d04f0f410300fd4e758ce1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="非表示" display_value="非表示" name="x_136731_approval_approval_form" sys_domain="global" view="Default view">a561904f0f410300fd4e758ce1050e84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>非表示</caption>
+            <header>false</header>
+            <name>x_136731_approval_approval_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-11 04:14:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a561904f0f410300fd4e758ce1050e84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>非表示</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+            <sys_update_name>sys_ui_section_a561904f0f410300fd4e758ce1050e84</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-11 04:14:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

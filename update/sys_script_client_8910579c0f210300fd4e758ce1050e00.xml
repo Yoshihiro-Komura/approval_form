@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>onLoad for Count Test</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	if(g_form.isNewRecord()) {
+		var rf = new GlideAjax('GetRecordTable');
+		rf.addParam('sysparm_name', 'getRTs');
+		rf.addParam('sysparm_tbl', 'x_136731_approval_approval_choise_data');
+		rf.addParam('sysparm_fld', 'u_approval_title');
+		rf.getXML(populateTN);
+	}
+	function populateTN(response) {
+		var getName = response.responseXML.documentElement.getAttribute("answer").split(';;');
+		var setField = 'u_select';
+		g_form.clearOptions(setField);
+		g_form.addOption(setField, '', '-- 未選択 --');
+		for(var ii = 0; ii < getName.length; ii++) {
+			g_form.addOption(setField, getName[ii], getName[ii]);
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-28 01:47:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8910579c0f210300fd4e758ce1050e00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onLoad for Count Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_script_client_8910579c0f210300fd4e758ce1050e00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-28 01:47:58</sys_updated_on>
+        <table>x_136731_approval_count_test</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

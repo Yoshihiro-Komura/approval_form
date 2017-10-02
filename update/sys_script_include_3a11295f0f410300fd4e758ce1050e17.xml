@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_136731_approval.At_Startup</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>At_Startup</name>
+        <script><![CDATA[var At_Startup = Class.create();
+At_Startup.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	at_Startup: function() {
+		// "「日付」;;「アクセスしているユーザーの所属名」 / 「アクセスしているユーザーのディスプレイ名」"の形で、返す
+		// split(";;")で使うことを前提
+		var valDate = new GlideDateTime();		// 取得日時はGMTとなる
+		var valDATE = new Date();
+		valDate.add(60 * 60 * 1000 * 9);		// 日本時間にするため、9時間分のミリ秒を加算
+		var valUser = new gs.getUser();
+		var userRecord = new GlideRecord('sys_user');
+		userRecord.get(valUser.getID());
+		var depaRecord = new GlideRecord('cmn_department');
+		depaRecord.get(userRecord.getValue('department'));
+		
+		return valDate + ";;" + depaRecord.getValue('name') + " / " + valUser.getDisplayName() + ';;' + userRecord.getValue('email') + ';;' + userRecord.getValue('phone') + '/' + userRecord.getValue('mobile_phone');
+	},
+	type: 'At_Startup'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-12 04:42:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a11295f0f410300fd4e758ce1050e17</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>At_Startup</sys_name>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_script_include_3a11295f0f410300fd4e758ce1050e17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-19 01:31:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

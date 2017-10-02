@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>新規作成時のみ準備する</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>onLoad for Approval Choise Data</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	if(g_form.isNewRecord()) {
+		var getDate = new GlideAjax('At_Startup');
+		getDate.addParam('sysparm_name', 'at_Startup');
+		getDate.getXML(populateGetDT);
+	}
+
+	function populateGetDT(response) {
+		var valData = response.responseXML.documentElement.getAttribute("answer").split(";;");
+		g_form.setValue('u_res_date', valData[0]);
+		g_form.setValue('u_res_name', valData[1]);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-15 01:49:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b546909c0f110300fd4e758ce1050e4a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onLoad for Approval Choise Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_script_client_b546909c0f110300fd4e758ce1050e4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-15 01:59:15</sys_updated_on>
+        <table>x_136731_approval_approval_choise_data</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

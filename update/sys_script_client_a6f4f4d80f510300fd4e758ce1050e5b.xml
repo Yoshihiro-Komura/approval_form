@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>onSubmit for Approval Choise Data</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	if(g_form.getValue('u_state') == 0) {
+		alert('既に登録されています\n更新は出来ません');
+		return false;
+	}
+	var getD = g_form.getValue('u_res_date');
+	var getN = g_form.getValue('u_res_name');
+	// 作成に代入
+	g_form.setValue('u_create_date', getD);
+	g_form.setValue('u_create_name', getN);
+	// 用意しておいたFieldをクリアする
+	g_form.clearValue('u_res_date');
+	g_form.clearValue('u_res_name');
+
+	g_form.setValue('u_state', 0);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-15 04:06:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6f4f4d80f510300fd4e758ce1050e5b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>onSubmit for Approval Choise Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_script_client_a6f4f4d80f510300fd4e758ce1050e5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-15 04:08:31</sys_updated_on>
+        <table>x_136731_approval_approval_choise_data</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
