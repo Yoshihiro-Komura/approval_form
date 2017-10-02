@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Count Test" max_length="40" name="x_136731_approval_count_test" sizeclass="7" type="collection">
+    <element extends="task" label="Count Test" max_length="40" name="x_136731_approval_count_test" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Counter" max_length="40" name="u_counter" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Selector" max_length="100" name="u_select" type="string">
             <choice/>

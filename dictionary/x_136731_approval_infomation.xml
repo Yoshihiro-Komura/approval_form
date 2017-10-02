@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Infomation" max_length="40" name="x_136731_approval_infomation" sizeclass="1" type="collection">
+    <element extends="task" label="Infomation" max_length="40" name="x_136731_approval_infomation" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Infomation" max_length="400" name="u_infomation" type="string"/>
     </element>
 </database>

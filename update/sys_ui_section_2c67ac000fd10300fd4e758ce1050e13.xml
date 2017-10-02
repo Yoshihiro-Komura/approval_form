@@ -32,7 +32,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-15 01:04:33</sys_updated_on>
             <text>※申請番号は、『省略記号』＋『YYYYMMDD』(日付)＋『カウンター番号』(４桁)となります。</text>
-            <type display_value="non-style text">a40bf7880f900300fd4e758ce1050e8d</type>
+            <type display_value="">a40bf7880f900300fd4e758ce1050e8d</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>834c40980f110300fd4e758ce1050e93</element>

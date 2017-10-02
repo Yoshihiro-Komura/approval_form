@@ -8,7 +8,7 @@
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles>x_136731_approval.approval_choise_data_user</roles>
+        <roles>x_136731_approval.approval_choise_data_u</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-14 08:22:30</sys_created_on>

@@ -21,7 +21,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-10-02 04:39:47</sys_updated_on>
             <text/>
-            <type display_value="non-style text">a40bf7880f900300fd4e758ce1050e8d</type>
+            <type display_value="">a40bf7880f900300fd4e758ce1050e8d</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>

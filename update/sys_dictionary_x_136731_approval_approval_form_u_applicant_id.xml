@@ -48,16 +48,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-11 01:46:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>65afe7fe0f010300fd4e758ce1050ee8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>a655c13d6f2103009ef552b10b3ee4ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>申請者ID</sys_name>
         <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
         <sys_update_name>sys_dictionary_x_136731_approval_approval_form_u_applicant_id</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-11 05:08:14</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-02 07:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
