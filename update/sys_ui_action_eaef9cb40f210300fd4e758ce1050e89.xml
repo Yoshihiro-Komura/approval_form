@@ -6,8 +6,8 @@
         <client>true</client>
         <comments/>
         <condition/>
-        <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_style/>
@@ -23,11 +23,12 @@
         <name>Input_Test</name>
         <onclick>onInputTest()</onclick>
         <order>50</order>
-        <script><![CDATA[function onInputTest() {
+        <script><![CDATA[onInputTest();
+
+function onInputTest() {
 	var gdw = new GlideDialogWindow('x_136731_approval_Input_Test');
 	gdw.setTitle('Input Test');
-	gdw.setSize(300, 200);
-	gdw.setPreference("jwidth", "300");
+	gdw.setSize(350, 250);
 	gdw.render();
 }]]></script>
         <show_insert>true</show_insert>
@@ -41,16 +42,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eaef9cb40f210300fd4e758ce1050e89</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Input_Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
         <sys_update_name>sys_ui_action_eaef9cb40f210300fd4e758ce1050e89</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-29 07:17:24</sys_updated_on>
+        <sys_updated_on>2017-10-02 05:51:22</sys_updated_on>
         <table>x_136731_approval_approval_form</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
