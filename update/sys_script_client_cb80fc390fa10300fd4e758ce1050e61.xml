@@ -15,20 +15,42 @@
 	onInputTest();
 
 	function onInputTest() {
-		var gdw = new GlideDialogWindow('x_136731_approval_Input_Test');
-		gdw.setTitle('Input Test');
-		gdw.setSize(350, 250);
+		var gdw = new GlideDialogWindow('x_136731_approval_Input_Test'); 
+		gdw.setTitle('Input Test');		//Set the dialog title
+		gdw.setSize(400, 250);			//Set the dialog size
+		gdw.removeCloseDecoration();	//Remove the dialog close icon
 		gdw.render();
+		
+		gdw.setLoadCallback(function() {
+			gdw.moveTo('0', '0');		//DialogWindowを移動させるためらしいが、動作確認できず
+		});
+		
+		//Customizations for dialog background color and opacity
+		//Dialogのバックグランドカラーや透明度の変更と合ったが、動作を確認できず
+		var d = $('grayBackground');
+		d.style.opacity = "1"; //Opacity setting for normal browsers
+		d.style.filter =  "alpha(opacity = 100)"; //Opacity setting for IE
+		d.style.backgroundColor = "blue"; //Optional background color setting
+		d.style.backgroundImage = "url('https://www.servicenowguru.com/logo.png')"; //Optional background image setting
+
+		
+		//Automatically adjust the size of the dialog as window dimensions change
+		//WindowのReSizeに合わせて、Dialogの大きさを変更とあったが、動作確認できず
+		Event.observe(window, 'resize', function() {
+			var dims = document.viewport.getDimensions(); // dims.width and dims.height
+			d.style.width = dims.width + 'px';
+			d.style.height = dims.height + 'px';
+		});
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-10-02 05:51:15</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb80fc390fa10300fd4e758ce1050e61</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>onLoad for Approval Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
@@ -37,7 +59,7 @@
         <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
         <sys_update_name>sys_script_client_cb80fc390fa10300fd4e758ce1050e61</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-02 06:00:55</sys_updated_on>
+        <sys_updated_on>2017-10-11 01:54:54</sys_updated_on>
         <table>x_136731_approval_approval_form</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

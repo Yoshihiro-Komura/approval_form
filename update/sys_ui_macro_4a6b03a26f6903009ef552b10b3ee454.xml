@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Button_Test</name>
+        <scoped_name>x_136731_approval_Button_Test</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-05 01:03:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4a6b03a26f6903009ef552b10b3ee454</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Button_Test</sys_name>
+        <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
+        <sys_update_name>sys_ui_macro_4a6b03a26f6903009ef552b10b3ee454</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-11 06:24:14</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script>
+		function FTest3() {
+			alert("test3");
+		}
+	</script>
+	<label class="col-xs-12 col-md-3 col-lg-4 control-label"></label>
+	<div class="col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input-controls">
+		<a href="javascript:void(0);" onClick="FTest3();">
+			<div style="padding:5px; border:solid 1px #000000;">
+				てすと
+			</div>
+		</a>
+	</div>
+	<div class="col-xs-2 col-sm-3 col-lg-2 form-field-addons">
+	</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

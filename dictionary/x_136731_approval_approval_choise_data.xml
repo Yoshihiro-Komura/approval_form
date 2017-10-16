@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="申請書名設定" max_length="40" name="x_136731_approval_approval_choise_data" type="collection">
+    <element extends="task" label="申請書名設定" max_length="40" name="x_136731_approval_approval_choise_data" sizeclass="8" type="collection">
         <element default="0" label="申請書カウンター" max_length="40" name="u_approval_counter" read_only="true" type="integer"/>
         <element label="Approval Counter Date" max_length="40" name="u_approval_counter_date" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="申請書タイトル" max_length="100" name="u_approval_title" type="string"/>

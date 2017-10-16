@@ -9,7 +9,7 @@
 	// comments = trim(comments);
 	if (comments == "") {
 		//If comments are empty stop submission
-		alert("Please provide comments to submit the dialog.");
+		alert("選択してください。");
 		return false;
 	}
 	//If comments are not empty do this...
@@ -18,7 +18,7 @@
 }
 function valCANCEL() {
 	GlideDialogWindow.get().destroy(); //Close the dialog window
-	history.back(); //Set the 'Comments' field with comments in the dialog
+	history.back(); //
 }]]></client_script>
         <description/>
         <direct>false</direct>
@@ -34,16 +34,31 @@ function valCANCEL() {
 		}
 	</g:evaluate>
 	<div>
+	<g:macro_invoke macro="x_136731_approval_TestHeader" />
+	<h3>稟議書タイトル セレクト</h3>
 	<g:ui_form>
-		<h3>稟議書タイトル セレクト</h3>
-		<select name="dial_comments" id="dial_comments" style="display:block;width:100%;">
-			<option value="">選択してください</option>
-			<g:no_escape>
-				${select}
-			</g:no_escape>
-		</select>
-		<g:dialog_buttons_ok_cancel ok="return valOK()" cancel="return valCANCEL()" cancel_type="button" ok_type="button" />
+		<table style="width:100%;">
+			<tr><td>
+				<select name="dial_comments" id="dial_comments" style="width:100%;">
+					<option value="">選択してください</option>
+					<g:no_escape>
+						${select}
+					</g:no_escape>
+				</select>
+			</td></tr>
+			<tr><td>
+				<label>Time Card Active:</label>
+				<g:ui_checkbox name="timecard_active" value="sample"/>
+			</td></tr>
+			<tr><td>
+			<g:ui_input_field label="sys_id" name="sysid" value="9d385017c611228701d22104cc95c371" size="50"/>
+			</td></tr>
+			<tr><td style="text-align: right;">
+				<g:dialog_buttons_ok_cancel ok="return valOK()" cancel="return valCANCEL()" ok_type="button" cancel_type="hidden" />
+			</td></tr>
+		</table>
 	</g:ui_form>
+	<g:macro_invoke macro="x_136731_approval_TestFooter" />
 	</div>
 </j:jelly>]]></html>
         <name>Input_Test</name>
@@ -51,9 +66,9 @@ function valCANCEL() {
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-29 02:02:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>89dd18bc0f210300fd4e758ce1050e63</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>Input_Test</sys_name>
         <sys_package display_value="Approval Decision" source="x_136731_approval">834dd7720f010300fd4e758ce1050ec5</sys_package>
         <sys_policy/>
@@ -61,6 +76,6 @@ function valCANCEL() {
         <sys_scope display_value="Approval Decision">834dd7720f010300fd4e758ce1050ec5</sys_scope>
         <sys_update_name>sys_ui_page_89dd18bc0f210300fd4e758ce1050e63</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-02 05:56:28</sys_updated_on>
+        <sys_updated_on>2017-10-13 08:26:35</sys_updated_on>
     </sys_ui_page>
 </record_update>
